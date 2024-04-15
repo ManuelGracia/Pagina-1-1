@@ -1,0 +1,47 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Form{
+
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(234, 197, 150);
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 18px;
+    
+}
+
+.Titulo{
+
+    font-size: 25px;
+    color: rgb(89, 2, 32);
+
+}
+
+.Entradas{
+
+    padding: 5px;
+    width: 400px;
+    background-color: rgb(249, 227, 198);
+    border-radius: 7px;
+    border: 1px solid rgb(96, 0, 0);
+    margin-bottom: 5px;
+
+}
+
+.Boton{
+
+    border-radius: 20px;
+    background-color: rgb(249, 227, 198);
+    font-size: 20px;
+    width: 200px;
+    margin-left: 95px;
+    margin-top: 10px;
+    border: 2px solid rgb(96, 0, 0);
+    color: rgb(89, 2, 32);
+}

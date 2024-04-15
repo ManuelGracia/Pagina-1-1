@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form class="Form" action="resultado.html" method="post">
+        <h1 class="Titulo">FORMULARIO</h1>
+
+        <label for="Nom">Nombre(s):</label>
+        <input class="Entradas" name="nom" type="text" id="Nom" placeholder="Nombre(s)">
+
+        <label for="Apell">Apellidos:</label>
+        <input class="Entradas" name="ape" type="text" id="Apell" placeholder="Apellidos">
+
+        <label for="Gen">Genero:</label>
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="Hombre" id="Gen">
+        <label for="Mujer">Mujer</label>
+        <input type="radio" name="Mujer" id="Gen"> <br>
+
+        <label for="Mail">Correo:</label>
+        <input class="Entradas" name="mail" type="email" id="Mail" placeholder="Ejemplo@Correo.com">
+
+        <label for="Cump">Fecha de Nacimiento:</label>
+        <input class="Entradas" name="nac" type="date" id="Cump">
+
+        <label for="Dir">Dirección:</label>
+        <textarea class="Entradas" name="Direccion" id="Dir" cols="30" rows="5" placeholder="Dirección:" ></textarea>
+        <label for="Boton"></label>
+        <input class="Boton" type="submit" value="Terminar Formulario" id="Boton">
+    </form>
+</body>
+
+</html>
